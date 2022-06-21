@@ -7,8 +7,11 @@
     "start": "nodemon --ext ts,js --exec \"DEBUG=@aidbox/server-sdk:* ts-node index.ts\""
   },
   "dependencies": {
-    "@aidbox/node-server-sdk": "^2.0.19",
+    "@aidbox/node-server-sdk": "^2.1.1",
+    "axios": "^0.27.2",
     "dotenv": "^16.0.0",
+    "fetch": "^1.1.0",
+    "tslib": "^2.4.0",
     "typescript": "^4.6.4"
   },
   "devDependencies": {
